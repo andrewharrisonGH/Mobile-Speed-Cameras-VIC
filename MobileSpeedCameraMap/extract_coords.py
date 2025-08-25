@@ -2,7 +2,7 @@ import requests
 import pandas as pd
 
 # Google Maps API Key
-API_KEY = "AIzaSyCOTqh-VeaCA2i4XEkfd4UP5kPBme-yTnY"
+API_KEY = # Insert API KEY Here
 
 # # Function to fetch coordinates for a street in a specific suburb
 # def get_coordinates(street, suburb):
@@ -71,5 +71,6 @@ for index, row in data.iterrows():
 # Save the data with coordinates to a new CSV
 output_csv = "Streets_With_Coordinates.csv"
 data.to_csv(output_csv, index=False)
+
 
 print(f"Data with coordinates saved to {output_csv}")

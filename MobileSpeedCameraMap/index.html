@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Approved Mobile Camera Locations</title>
+    <style>
+        /* Set the size for the map */
+        #map {
+            height: 600px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Approved Mobile Camera Locations</h1>
+    <div id="map"></div>
+
+    <!-- Load the Google Maps JavaScript API -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCOTqh-VeaCA2i4XEkfd4UP5kPBme-yTnY&callback=initMap" async defer></script>
+    <script src="script.js"></script>
+    <style>
+        /* Outer InfoWindow container */
+        .gm-style-iw {
+            padding: 0 !important;
+            margin: 0 !important;
+            box-shadow: none !important;
+            overflow: hidden !important;
+        }
+
+        /* Inner InfoWindow container */
+        .gm-style-iw-c {
+            padding: 0 !important;
+        }
+
+        /* Background shadow and borders */
+        .gm-style-iw-d {
+            padding: 0 !important;
+            margin: 0 !important;
+            box-shadow: none !important;
+        }
+
+        /* Default close button */
+        .gm-ui-hover-effect {
+            display: none !important;
+        }
+    </style>
+</body>
+</html>
